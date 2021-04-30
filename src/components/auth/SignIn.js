@@ -33,7 +33,7 @@ export default function SignIn() {
         if (currentUser) {
             history.push('/home')
         } 
-    },[currentUser])
+    },[currentUser,history])
     return (
         <div className="container row" >
             <div className="col s12 m3"></div>
