@@ -1,10 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { useAuth } from './../../context/AuthContext'
-import SignIn from './../auth/SignIn'
 
 export default function Home() {
-    const { currentUser, logout, refresh } = useAuth();
+    const { currentUser, logout} = useAuth();
     console.log(currentUser)
     
     return (

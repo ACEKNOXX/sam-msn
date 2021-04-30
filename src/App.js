@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import AuthProvider from './context/AuthContext'
 import Home from './components/pages/Home'
